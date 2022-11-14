@@ -8,9 +8,15 @@ import "./assets/img/4geeks.ico";
 window.onload = function() {
   //write your code here
   //Variables Array
-  let who = ["The dog", "My grandma", "His turtle", "My bird"];
+  let who = [
+    "The dog",
+    "My grandma",
+    "His turtle",
+    "My bird",
+    "My little nephew"
+  ];
   let action = ["ate", "peed", "crushed", "broke"];
-  let what = ["my homework", "the keys", "the car"];
+  let what = ["my homework", "the keys", "the car", "my shoes"];
   let when = [
     "before the class",
     "right on time",
