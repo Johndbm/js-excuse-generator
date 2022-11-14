@@ -5,7 +5,7 @@ import "./style.css";
 import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
-window.onload = function() {
+window.onload = function random() {
   //write your code here
   //Variables Array
   let who = [
@@ -25,9 +25,12 @@ window.onload = function() {
     "while I was praying"
   ];
   //Function
-  Math.random.toString(who + action + what + when);
+  let whoRandom = Math.floor(Math.random() * who.length);
+  let actionRandom = Math.floor(Math.random() * action.length);
+  let whatRandom = Math.floor(Math.random() * what.length);
+  let whenRandom = Math.floor(Math.random() * when.length);
 
-  console.log("Hello Rigo from the console!");
-  evn;
-  return;
+  document.querySelector(
+    "#excuse"
+  ).innerHTML = `${who[whoRandom]} ${action[actionRandom]} ${what[whatRandom]} ${when[whenRandom]}`;
 };
