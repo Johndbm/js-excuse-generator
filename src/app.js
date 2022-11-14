@@ -25,7 +25,9 @@ window.onload = function() {
     "while I was praying"
   ];
   //Function
+  Math.random.toString(who + action + what + when);
 
   console.log("Hello Rigo from the console!");
+  evn;
   return;
 };
